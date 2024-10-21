@@ -27,6 +27,7 @@
 		ECA460472CC5ADF9008753CA /* DatePickerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA460432CC5ADF9008753CA /* DatePickerViewModel.swift */; };
 		ECA460572CC6EDA5008753CA /* EntitiesKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA460562CC6EDA5008753CA /* EntitiesKeys.swift */; };
 		ECA460592CC6FC68008753CA /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = ECA460582CC6FC67008753CA /* README.md */; };
+		ECA4605B2CC70766008753CA /* DatePickerViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA4605A2CC70766008753CA /* DatePickerViewModelTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +75,7 @@
 		ECA460552CC5B65F008753CA /* EmployeeAttendance-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EmployeeAttendance-Bridging-Header.h"; sourceTree = "<group>"; };
 		ECA460562CC6EDA5008753CA /* EntitiesKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntitiesKeys.swift; sourceTree = "<group>"; };
 		ECA460582CC6FC67008753CA /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		ECA4605A2CC70766008753CA /* DatePickerViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerViewModelTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +142,7 @@
 			isa = PBXGroup;
 			children = (
 				ECA460132CC5AD15008753CA /* EmployeeAttendanceTests.swift */,
+				ECA4605A2CC70766008753CA /* DatePickerViewModelTests.swift */,
 			);
 			path = EmployeeAttendanceTests;
 			sourceTree = "<group>";
@@ -406,6 +409,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECA4605B2CC70766008753CA /* DatePickerViewModelTests.swift in Sources */,
 				ECA460142CC5AD15008753CA /* EmployeeAttendanceTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
